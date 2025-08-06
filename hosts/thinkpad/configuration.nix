@@ -37,9 +37,6 @@
 		LC_TIME = "en_NZ.UTF-8";
 	};
 
-	services.displayManager.gdm.enable = true;
-	services.desktopManager.gnome.enable = true;
-
 	security.rtkit.enable = true;
 	services.pipewire = {
 		enable = true;
@@ -56,17 +53,13 @@
 		];
 	};
 
-	services.displayManager.autoLogin.enable = true;
-	services.displayManager.autoLogin.user = "dory";
-
-	systemd.services."getty@tty1".enable = false;
-	systemd.services."autovt@tty1".enable = false;
-
 	nixpkgs.config.allowUnfree = true;
 
 	environment.systemPackages = with pkgs; [
 		ripgrep
 	];
+
+	programs.hyprland.enable = true;
 
 	services.keyd = {
 		enable = true;
