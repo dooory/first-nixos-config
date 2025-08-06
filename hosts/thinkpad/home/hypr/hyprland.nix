@@ -1,4 +1,8 @@
 {
+	imports = [
+		./keybinds.conf
+		./variables.conf
+	];
 	wayland.windowManager.hyprland = {
 		enable = true;
 		extraConfig = ''
