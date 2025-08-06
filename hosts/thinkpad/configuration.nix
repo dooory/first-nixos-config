@@ -40,11 +40,6 @@
 	services.displayManager.gdm.enable = true;
 	services.desktopManager.gnome.enable = true;
 
-	services.xserver.xkb = {
-		layout = "nz";
-		variant = "";
-	};
-
 	services.printing.enable = true;
 
 	services.pulseaudio.enable = false;
