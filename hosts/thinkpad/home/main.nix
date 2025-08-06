@@ -4,6 +4,7 @@
 	imports = [ 
 		./programs
 		./hypr
+		../../../modules/dark-theme.nix
 	];
 
 	home.username = "dory";
