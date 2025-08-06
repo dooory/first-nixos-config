@@ -1,7 +1,7 @@
 {
 	wayland.windowManager.hyprland = {
 		settings = {
-			input = [
+			input = {
 				kb_layout = "us";
 
 				follow_mouse = 2;
@@ -11,7 +11,7 @@
 
 				sensitivity = 0;
 
-				touchpad {
+				touchpad = {
 					natural_scroll = false;
 				};
 			};
