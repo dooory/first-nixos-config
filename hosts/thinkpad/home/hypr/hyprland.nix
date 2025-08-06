@@ -10,9 +10,6 @@
 
 	wayland.windowManager.hyprland = {
 		enable = true;
-		extraConfig = ''
-			${builtins.readFile ./hyprland.conf}
-		'';
 		settings = {
 			windowrule = [
 				"suppressevent maximize, class:.*"
