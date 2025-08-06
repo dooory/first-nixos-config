@@ -10,6 +10,8 @@
 		floorp
 		pavucontrol
 		spotify
+		tealdeer
+		nerd-fonts.zed-mono
 	];
 
 	programs = {
