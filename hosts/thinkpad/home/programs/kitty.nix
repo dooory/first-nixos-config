@@ -2,9 +2,9 @@
 	programs.kitty = {
 		enable = true;
 		settings = {
-			font_family = "ZedMono Nerd Font";
-			font_size = "14.0";
-			# background_opacity = "0.7";
+			font_family = "MesloLGM Nerd Font Mono";
+			font_size = "12.0";
+			background_opacity = "0.8";
 		};
 	};
 }
