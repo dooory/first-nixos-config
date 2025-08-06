@@ -14,7 +14,6 @@
 		pavucontrol
 		spotify
 		tealdeer
-		nerd-fonts.zed-mono
 		nerd-fonts.meslo-lg
 	];
 
