@@ -14,7 +14,7 @@
 		colorschemes.monokai-pro = {
 			enable = true;
 			settings = {
-				transparent_background = false;
+				transparent_background = true;
 			};
 		};
 	};
