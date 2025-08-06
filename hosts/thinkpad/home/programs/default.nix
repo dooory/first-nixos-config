@@ -4,5 +4,6 @@
 		./nixvim
 		./kitty.nix
 		./tmux.nix
+		./wofi.nix
 	];
 }
