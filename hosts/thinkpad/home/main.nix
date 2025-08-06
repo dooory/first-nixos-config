@@ -1,7 +1,10 @@
 { pkgs, import-tree, ... }:
 
 {
-	imports = [ ./programs ];
+	imports = [ 
+		./programs
+		./hypr
+	];
 
 	home.username = "dory";
 	home.homeDirectory = "/home/dory";
