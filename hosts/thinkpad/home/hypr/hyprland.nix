@@ -6,6 +6,8 @@
 		./variables.nix
 		./appearance.nix
 		./input.nix
+
+		./services
 	];
 
 	wayland.windowManager.hyprland = {
