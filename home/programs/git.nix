@@ -4,7 +4,8 @@
 		userEmail = "78720364+dooory@users.noreply.github.com";
 		userName = "dooory";
 		extraConfig = {
-			defaultBranch = "main";
+			init.defaultBranch = "main";
+			push.autoSetupRemote = true;
 		};
 	};
 }
