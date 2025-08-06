@@ -4,6 +4,8 @@
 	imports = [
 		./keybinds.nix
 		./variables.nix
+		./appearance.nix
+		./input.nix
 	];
 
 	wayland.windowManager.hyprland = {
