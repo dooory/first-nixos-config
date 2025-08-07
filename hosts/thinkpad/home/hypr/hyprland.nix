@@ -18,6 +18,8 @@
 			windowrule = [
 				"suppressevent maximize, class:.*"
 				"nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0"
+				"workspace 4,class:discord|Discord|vesktop"
+				"workspace 3,class:spotify|Spotify"
 			];
 
 			misc = {
