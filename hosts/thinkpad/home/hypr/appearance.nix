@@ -11,8 +11,6 @@
 				rounding_power = 4.0;
 			};
 
-			misc.vfr = true;
-
 			general = {
 				"col.active_border" = "$primary-color";	
 				"col.inactive_border" = "$inactive-border";
