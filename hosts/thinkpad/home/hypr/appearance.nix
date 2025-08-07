@@ -9,6 +9,11 @@
 			};
 
 			misc.vfr = true;
+
+			general = {
+				"col.active_border" = "$primary-color";	
+				"col.inactive_border" = "$inactive-border";
+			};
 		};
 	};
 }
