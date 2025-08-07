@@ -6,6 +6,9 @@
 			decoration = {
 				shadow.enabled = false;
 				blur.enabled = false;
+
+				rounding = 4;
+				rounding_power = 4.0;
 			};
 
 			misc.vfr = true;
