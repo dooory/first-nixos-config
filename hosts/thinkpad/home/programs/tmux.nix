@@ -33,8 +33,8 @@
 			bind "|" split-window -h
 			# split window vertically with dash key
 			bind "-" split-window -v
-			# toggle fullscreen panes with <C-Space>
-			bind C-Space resize-pane -Z
+			# toggle fullscreen panes with Space
+			bind Space resize-pane -Z
 
 			# start window index numbers at 1 instead of 0
 			set -g base-index 1
