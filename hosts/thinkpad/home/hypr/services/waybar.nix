@@ -17,6 +17,9 @@
 						"*" = [ 1 2 3 4 ];
 					};
 				};
+				"hyprland/window" = {
+					format = "{title}";
+				};
 			};
 		};
 	};
