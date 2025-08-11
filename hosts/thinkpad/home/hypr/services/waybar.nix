@@ -45,5 +45,12 @@
 				};
 			};
 		};
+
+		style = ''
+			* {
+				font-family: "MesloLGM Nerd Font Propo";
+				font-size: 14px;
+			}
+		'';
 	};
 }
