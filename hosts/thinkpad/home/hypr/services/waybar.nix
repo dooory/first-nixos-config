@@ -50,6 +50,11 @@
 			* {
 				font-family: "MesloLGM Nerd Font Propo";
 				font-size: 14px;
+				color: white;
+			}
+
+			window#waybar {
+				background-color: rgba(0, 0, 0, 0.7);
 			}
 		'';
 	};
