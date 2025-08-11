@@ -44,6 +44,12 @@
 							"default-muted" = "";
 					};
 				};
+
+				"battery" = {
+					format = "{capacity}% {icon}";
+					format-icons = ["󰁺" "󰁻" "󰁼" "󰁽" "󰁾" "󰁿" "󰂀" "󰂁" "󰂂" "󰁹"];
+					full-at = 99;
+				};
 			};
 		};
 
