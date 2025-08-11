@@ -16,6 +16,7 @@
 		spotify
 		tealdeer
 		nerd-fonts.meslo-lg
+		trilium-desktop
 	];
 
 	programs = {
