@@ -26,6 +26,10 @@
 				nrs = "sudo nixos-rebuild switch --flake /home/dory/nix";
 			};
 		};
+		zoxide = {
+			enable = true;
+			enableBashIntegration = true;
+		};
 	};
 	
 	home.stateVersion = "25.05";
