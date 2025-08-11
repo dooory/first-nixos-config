@@ -17,6 +17,8 @@
 				];
 
 				modules-right = [
+					"tray"
+					"pulseaudio"
 					"battery"
 					"clock"
 				];
@@ -30,6 +32,8 @@
 				"hyprland/window" = {
 					format = "{title}";
 				};
+
+
 			};
 		};
 	};
