@@ -33,7 +33,16 @@
 					format = "{title}";
 				};
 
-
+				"pulseaudio" = {
+					format = "{icon}";
+					format-muted = "{icon}";
+					format-icons = {
+							"headphone" = "󰋋";
+							"headphone-muted" = "󰟎";
+							"default" = "";
+							"default-muted" = "";
+					};
+				};
 			};
 		};
 	};
