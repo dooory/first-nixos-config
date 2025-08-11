@@ -6,6 +6,7 @@
 		settings = {
 			mainBar = {
 				layer = "top";
+				spacing = 8;
 
 
 				modules-left = [
