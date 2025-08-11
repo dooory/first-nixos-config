@@ -26,6 +26,10 @@
 				vfr = true;
 				new_window_takes_over_fullscreen = 2;
 			};
+
+			xwayland = {
+				force_zero_scaling = true;
+			};
 		};
 	};
 
