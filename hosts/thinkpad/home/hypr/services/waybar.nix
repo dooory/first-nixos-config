@@ -12,6 +12,10 @@
 				modules-center = [
 					"hyprland/window"
 				];
+				modules-right = [
+					"battery"
+					"clock"
+				];
 				"hyprland/workspaces" = {
 					persistent-workspaces = {
 						"*" = [ 1 2 3 4 ];
