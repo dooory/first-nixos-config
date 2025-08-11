@@ -49,6 +49,10 @@
 					format = "{capacity}% {icon}";
 					format-icons = ["󰁺" "󰁻" "󰁼" "󰁽" "󰁾" "󰁿" "󰂀" "󰂁" "󰂂" "󰁹"];
 					full-at = 99;
+					states = {
+						warning = 30;
+						critical = 10;
+					};
 				};
 			};
 		};
