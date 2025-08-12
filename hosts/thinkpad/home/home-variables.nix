@@ -1,4 +1,9 @@
 {
+	defaults = {
+		browser = "qutebrowser";
+		terminal = "kitty";
+	};
+
 	# rec is needed at the beginning of an attribute set to allow its children to reference each other
 	theme = {
 		primary = rec {
