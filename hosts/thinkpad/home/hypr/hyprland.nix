@@ -36,5 +36,6 @@
 	home.packages = with pkgs; [
 		playerctl
 		pamixer
+		brightnessctl
 	];
 }
