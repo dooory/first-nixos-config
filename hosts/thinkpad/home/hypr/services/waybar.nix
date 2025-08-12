@@ -1,3 +1,7 @@
+let
+	vars = import ../../home-variables.nix;
+	theme = vars.theme;
+in
 {
 	programs.waybar = {
 		enable = true;
@@ -61,11 +65,25 @@
 			* {
 				font-family: "MesloLGM Nerd Font Propo";
 				font-size: 14px;
-				color: white;
 			}
 
 			window#waybar {
-				background-color: rgba(0, 0, 0, 0.7);
+				background-color: rgba(${theme.background.rgb}, 0.7);
+				color: rgb(${theme.secondary.rgb});
+
+				border-bottom: 2px solid rgba(${theme.primary.rgb}, 0.9);
+			}
+
+			#workspaces {
+				margin: 4px 0;
+			}
+
+			#workspaces button {
+				color: rgb(${theme.secondary.rgb});
+
+				padding: 0 5px;
+				margin: 0 4px;
+				border-radius: 0;
 			}
 		'';
 	};
