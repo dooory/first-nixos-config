@@ -1,3 +1,7 @@
+let
+	vars = import ../home-variables.nix;
+	theme = vars.theme;
+in
 {
 	wayland.windowManager.hyprland = {
 		settings = {
@@ -6,13 +10,12 @@
 			"$launcher" = "wofi --show drun";
 			"$browser" = "floorp";
 
-			# decimal color codes aren't allowed to have spaces between values
-			"$primary-color" = "rgb(176,97,133)";
-			"$secondary-color" = "rgb(235,220,179)";
-			"$teritary-color" = "rgb(83,79,72)";
-			"$background-color" = "rgb(30,33,33)";
+			"$primary-color" = "rgb(${theme.primary.rgb})";
+			"$secondary-color" = "rgb(${theme.secondary.rgb})";
+			"$teritary-color" = "rgb(${theme.teritary.rgb})";
+			"$background-color" = "rgb(${theme.background.rgb})";
 
-			"$inactive-border" = "rgba(235,220,179,0.35)";
+			"$inactive-border" = "rgba(${theme.secondary.rgb},0.35)";
 		};
 	};
 }
