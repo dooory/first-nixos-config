@@ -1,14 +1,15 @@
 let
 	vars = import ../home-variables.nix;
 	theme = vars.theme;
+	defaults = vars.defaults;
 in
 {
 	wayland.windowManager.hyprland = {
 		settings = {
 			"$mod" = "SUPER";
-			"$terminal" = "kitty";
+			"$terminal" = defaults.terminal;
 			"$launcher" = "wofi --show drun";
-			"$browser" = "floorp";
+			"$browser" = defaults.browser;
 
 			"$primary-color" = "rgb(${theme.primary.rgb})";
 			"$secondary-color" = "rgb(${theme.secondary.rgb})";
