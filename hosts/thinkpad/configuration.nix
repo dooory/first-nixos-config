@@ -21,6 +21,11 @@
 	networking.hostName = "thinkpad";
 	networking.networkmanager.enable = true;
 
+	hardware.bluetooth = {
+		enable = true;
+		powerOnBoot = true;
+	};
+
 	time.timeZone = "Pacific/Auckland";
 
 	i18n.defaultLocale = "en_NZ.UTF-8";
@@ -57,6 +62,8 @@
 
 	environment.systemPackages = with pkgs; [
 		ripgrep
+		bluez
+		bluez-experimental
 	];
 
 	environment.sessionVariables.NIXOS_OZONE_WL = "1";
