@@ -45,6 +45,9 @@ in
 					};
 				};
 			};
+
+			# show tabs only when multiple are present
+			tabs.show = "multiple";
 		};
 
 		greasemonkey = [
