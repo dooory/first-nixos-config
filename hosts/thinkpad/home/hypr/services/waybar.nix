@@ -1,5 +1,5 @@
 let
-	theme = (import ../../home-variables.nix);
+	theme = (import ../../home-variables.nix).theme;
 in
 {
 	programs.waybar = {
