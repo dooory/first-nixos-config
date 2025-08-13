@@ -12,6 +12,7 @@
 	
 		quickmarks = {
 			qsettings = "https://qutebrowser.org/doc/help/settings.html";
+			configrepo = "https://github.com/dooory/nix-config";
 		};
 
 		keyBindings = {
