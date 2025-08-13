@@ -9,6 +9,10 @@
 			mn = "https://www.mynixos.com/search?q={}";
 			nw = "https://nixos.wiki/index.php?search={}";
 		};
+	
+		quickmarks = {
+			qsettings = "https://qutebrowser.org/doc/help/settings.html";
+		};
 
 		keyBindings = {
 			normal = {
