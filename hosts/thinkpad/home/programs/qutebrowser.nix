@@ -1,3 +1,6 @@
+let
+	theme = (import ../home-variables.nix).theme;
+in
 {
 	programs.qutebrowser = {
 		enable = true;
