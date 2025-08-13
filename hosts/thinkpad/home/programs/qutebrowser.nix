@@ -22,5 +22,9 @@
 				"<shift-j>" = "back";
 			};
 		};
+
+		settings = {
+			auto_save.session = true;
+		};
 	};
 }
