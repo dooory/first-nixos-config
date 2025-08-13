@@ -3,6 +3,12 @@ let
 in
 {pkgs, ...}:
 {
+	home.packages = with pkgs; [
+		# needed for:
+		#	content.blocking.method = 'adblock'
+		python313Packages.adblock
+	];
+
 	programs.qutebrowser = {
 		enable = true;
 
@@ -48,6 +54,11 @@ in
 
 			# show tabs only when multiple are present
 			tabs.show = "multiple";
+
+			content.blocking = {
+				enabled = true;
+				method = "adblock";
+			};
 		};
 
 		greasemonkey = [
