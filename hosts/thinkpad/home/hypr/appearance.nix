@@ -6,9 +6,6 @@
 			decoration = {
 				shadow.enabled = false;
 				blur.enabled = false;
-
-				rounding = 4;
-				rounding_power = 4.0;
 			};
 
 			general = {
@@ -16,7 +13,7 @@
 				"col.inactive_border" = "$inactive-border";
 
 				gaps_in = 5;
-				gaps_out = 10;
+				gaps_out = 5;
 			};
 		};
 	};
