@@ -29,6 +29,21 @@ in
 
 		settings = {
 			auto_save.session = true;
+
+			colors = {
+				hints = {
+					fg = theme.secondary.hex;
+					bg = theme.teritary.hex;
+				};
+
+				webpage = {
+					darkmode = {
+						enabled = true;
+						algorithm = "lightness-cielab";
+						policy.images = "never";
+					};
+				};
+			};
 		};
 	};
 }
