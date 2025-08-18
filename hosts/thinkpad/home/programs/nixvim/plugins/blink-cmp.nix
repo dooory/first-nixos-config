@@ -1,3 +1,6 @@
 {
-	plugins.blink-cmp.enable = true;
+	plugins.blink-cmp = {
+		enable = true;
+		setupLspCapabilities = true;
+	};
 }
