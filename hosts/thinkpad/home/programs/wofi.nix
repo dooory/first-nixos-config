@@ -12,7 +12,6 @@ in
 
 			window, entry {
 				background-color: rgba(${theme.background.rgb}, 0.9);
-				color: ${theme.secondary.hex};
 				border: 2px solid ${theme.secondary.hex};
 			}
 
@@ -21,7 +20,7 @@ in
 				border: 2px solid ${theme.primary.hex};
 			}
 
-			#entry:selected #text {
+			#text {
 				color: ${theme.secondary.hex};
 			}
 		'';
