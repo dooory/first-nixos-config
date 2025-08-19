@@ -16,8 +16,16 @@ in
 				border: 2px solid ${theme.secondary.hex};
 			}
 
+			#entry {
+				padding: 0 7px;
+				border-left: 2px solid transparent;
+				border-right: 2px solid transparent;
+			}
+
 			#entry:selected {
-				outline: solid ${theme.secondary.hex};
+				outline: none;
+				border-left: 2px solid ${theme.secondary.hex};
+				border-right: 2px solid ${theme.secondary.hex};
 				background-color: ${theme.primary.hex};
 			}
 
