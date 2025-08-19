@@ -84,6 +84,10 @@ in
 				margin: 0 4px;
 				border-radius: 0;
 			}
+
+			#workspaces button.active {
+				box-shadow: inset 0 -3px rgb(${theme.teritary.rgb});
+			}
 		'';
 	};
 }
