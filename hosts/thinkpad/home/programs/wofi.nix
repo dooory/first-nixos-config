@@ -20,6 +20,10 @@ in
 				background-color: ${theme.primary.hex};
 				border: 2px solid ${theme.primary.hex};
 			}
+
+			#input:focus {
+				box-shadow: none;
+			}
 		'';
 	};
 }
