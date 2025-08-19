@@ -17,8 +17,8 @@ in
 			}
 
 			#entry:selected {
+				outline: solid ${theme.secondary.hex};
 				background-color: ${theme.primary.hex};
-				border: 2px solid ${theme.primary.hex};
 			}
 
 			#input:focus {
