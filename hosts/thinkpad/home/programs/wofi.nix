@@ -8,6 +8,11 @@ in
 			* {
 				font-family: "MesloLGM Nerd Font Propo";
 			}
+
+			window {
+				background-color: rgba(${theme.background.rgb}, 0.7);
+				color: ${theme.secondary.hex};
+			}
 		'';
 	};
 }
