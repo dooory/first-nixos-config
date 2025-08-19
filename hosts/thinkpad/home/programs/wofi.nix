@@ -8,6 +8,7 @@ in
 			* {
 				font-family: "MesloLGM Nerd Font Propo";
 				border-radius: 0;
+				color: ${theme.secondary.hex};
 			}
 
 			window, entry {
@@ -18,10 +19,6 @@ in
 			#entry:selected {
 				background-color: ${theme.primary.hex};
 				border: 2px solid ${theme.primary.hex};
-			}
-
-			#text {
-				color: ${theme.secondary.hex};
 			}
 		'';
 	};
