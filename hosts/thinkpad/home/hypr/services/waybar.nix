@@ -38,8 +38,8 @@ in
 				};
 
 				"pulseaudio" = {
-					format = "{icon}";
-					format-muted = "{icon}";
+					format = "{volume}% {icon}";
+					format-muted = "{volume}% {icon}";
 					format-icons = {
 							"headphone" = "󰋋";
 							"headphone-muted" = "󰟎";
