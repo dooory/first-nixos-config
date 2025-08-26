@@ -59,6 +59,8 @@ in
 				enabled = true;
 				method = "adblock";
 			};
+
+			content.user_stylesheets = [];
 		};
 
 		greasemonkey = [
